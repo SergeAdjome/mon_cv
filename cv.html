@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mon CV - Portfolio</title>
+    <!-- bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">Mon Portfolio</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Accueil</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="cv.html">CV</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Expériences -->
+    <section id="experiences" class="py-5 bg-light">
+      <div class="container">
+        <h2 class="mb-4 text-center">Expériences Professionnelles</h2>
+
+        <!--  Experience au CIAT TOGO -->
+        <div class="experience-card">
+          <div class="card-header d-flex justify-content-between">
+            <h3 class="entreprise">
+              Centre Informatique Avancé et Télécom (CIAT)
+            </h3>
+            <span class="lieu"
+              >Route de Kolo Kopé à 300m de la Station SADKO ADELI</span
+            >
+          </div>
+
+          <div
+            class="card-body d-flex flex-column flex-md-row align-items-start"
+          >
+            <img
+              src="logo-entreprise.jpg"
+              alt="Logo Entreprise"
+              class="logo-entreprise me-md-3 mb-3 mb-md-0"
+            />
+
+            <div class="infos-poste">
+              <h4 class="poste">Technicien Réseau & Formateur</h4>
+              <p class="mission">
+                Depuis octobre 2022, j’exerce en tant que technicien réseaux et
+                formateur au sein du Centre Informatique Avancé et Télécom. J’y
+                assure la mise en place, l’extension et la maintenance de
+                réseaux LAN pour différentes structures, en réalisant le
+                câblage, la configuration des équipements réseau, ainsi que le
+                dépannage des postes informatiques et périphériques. En
+                parallèle, j’anime des formations en informatique et
+                bureautique, destinées à divers profils, en élaborant des
+                supports pédagogiques adaptés et en accompagnant
+                individuellement les apprenants tout au long de leur parcours.
+              </p>
+
+              <!-- Image complémentaire du poste (optionnel) -->
+              <img
+                src="projet-web.jpg"
+                alt="Projet réalisé"
+                class="img-experience mt-2"
+              />
+            </div>
+          </div>
+
+          <div class="reference mt-3">
+            <strong>Référence :</strong> DAVON Komlan Wilfrid –
+            <a href="mailto:j.dupont@example.com">ciaanie@gmail.com</a> – +228
+            92 64 58 77
+          </div>
+        </div>
+
+        <!-- Experience à Kékéli Togo -->
+        <div class="experience-card">
+          <div class="card-header d-flex justify-content-between">
+            <h3 class="entreprise">Associacion kekeli Togo e.V.</h3>
+            <span class="lieu">Lomé, TOGO</span>
+          </div>
+
+          <div
+            class="card-body d-flex flex-column flex-md-row align-items-start"
+          >
+            <img
+              src="logo-entreprise.jpg"
+              alt="Logo Entreprise"
+              class="logo-entreprise me-md-3 mb-3 mb-md-0"
+            />
+
+            <div class="infos-poste">
+              <h4 class="poste">Bénévole IT</h4>
+              <p class="mission">
+                Depuis 2019, je m’investis ponctuellement comme bénévole pour
+                l’association Kekeli Togo e.V. J’y participe au déploiement de
+                solutions Wi-Fi communautaires, à l’introduction de Kiwix et
+                d’outils libres dans des contextes éducatifs, et à la conception
+                de contenus de formation pour des publics débutants. Ces actions
+                s’inscrivent dans une démarche de démocratisation de l’accès au
+                numérique et de lutte contre la fracture digitale.
+              </p>
+
+              <!-- Image complémentaire du poste (optionnel) -->
+              <img
+                src="projet-web.jpg"
+                alt="Projet réalisé"
+                class="img-experience mt-2"
+              />
+            </div>
+          </div>
+
+          <div class="reference mt-3">
+            <p><strong>FRENZEL-ASSIH Kossi Michel</strong></p>
+            <p>
+              <strong>Email :</strong>
+              <a href="mailto:kekeli.togo.e.v@gmail.com"
+                >kekeli.togo.e.v@gmail.com</a
+              >
+            </p>
+            <p><strong>Téléphone :</strong> +33 6 68 67 13 92</p>
+            <p>
+              <strong>Site web :</strong>
+              <a
+                href="https://www.kekelitogo.org"
+                target="_blank"
+                rel="noopener"
+                >www.kekelitogo.org</a
+              >
+            </p>
+          </div>
+        </div>
+
+        <!-- Expérience chez LE SAMARITIN -->
+        <div class="experience-card">
+          <div class="card-header d-flex justify-content-between">
+            <h3 class="entreprise">Groupe LE SAMARITIN</h3>
+            <span class="lieu">Lomé, TOGO</span>
+          </div>
+
+          <div
+            class="card-body d-flex flex-column flex-md-row align-items-start"
+          >
+            <img
+              src="logo-entreprise.jpg"
+              alt="Logo Entreprise"
+              class="logo-entreprise me-md-3 mb-3 mb-md-0"
+            />
+
+            <div class="infos-poste">
+              <h4 class="poste">Formateur Informatique</h4>
+              <p class="mission">
+                Durant l’été 2022, j’ai été formateur en informatique pour le
+                Groupe Le Samaritain. J’y ai dispensé des cours pratiques sur
+                les logiciels Microsoft Office à des jeunes en insertion
+                professionnelle, tout en les sensibilisant à l’usage responsable
+                et professionnel des outils numériques. Mon rôle incluait
+                également le suivi personnalisé des participants, l’évaluation
+                de leurs progrès, ainsi que l’organisation logistique des
+                sessions de formation.
+              </p>
+
+              <!-- Image complémentaire du poste (optionnel) -->
+              <img
+                src="projet-web.jpg"
+                alt="Projet réalisé"
+                class="img-experience mt-2"
+              />
+            </div>
+          </div>
+
+          <div class="reference mt-3">
+            <p><strong>HOULAILI Yetondji Serge</strong></p>
+            <p>
+              <strong>Email :</strong>
+              <a href="mailto:houlailiserge@gmail.com"
+                >houlailiserge@gmail.com</a
+              >
+            </p>
+            <p><strong>Téléphone :</strong> +228 91 17 74 96</p>
+          </div>
+        </div>
+
+        <!-- Expérience chez T-Global Solution Groupe -->
+        <div class="experience-card">
+          <div class="card-header d-flex justify-content-between">
+            <h3 class="entreprise">T-Global Solution Groupe</h3>
+            <span class="lieu">Lomé, TOGO</span>
+          </div>
+
+          <div
+            class="card-body d-flex flex-column flex-md-row align-items-start"
+          >
+            <img
+              src="logo-entreprise.jpg"
+              alt="Logo Entreprise"
+              class="logo-entreprise me-md-3 mb-3 mb-md-0"
+            />
+
+            <div class="infos-poste">
+              <h4 class="poste">Technicien Réseau</h4>
+              <p class="mission">
+                Entre décembre 2021 et mars 2022, j’ai travaillé chez T-Global
+                Solution Group en tant que technicien réseau. J’y ai installé
+                des zones Wi-Fi pour des commerçants locaux, configuré les
+                équipements de routage et administré les réseaux internes afin
+                d’en garantir les performances. J’ai également assuré un support
+                technique de proximité et à distance, tout en produisant une
+                documentation claire et structurée pour faciliter la gestion des
+                interventions et le suivi client.
+              </p>
+
+              <!-- Image complémentaire du poste (optionnel) -->
+              <img
+                src="projet-web.jpg"
+                alt="Projet réalisé"
+                class="img-experience mt-2"
+              />
+            </div>
+          </div>
+
+          <div class="reference mt-3">
+            <p><strong>TOULEASSI Assi Juste Steven</strong></p>
+            <p>
+              <strong>Email :</strong>
+              <a href="mailto:steventouleassi@gmail.com"
+                >steventouleassi@gmail.com</a
+              >
+            </p>
+            <p><strong>Téléphone :</strong> +228 98 82 53 70</p>
+          </div>
+        </div>
+
+        <!-- Expérience chez Radio Lomé -->
+        <div class="experience-card">
+          <div class="card-header d-flex justify-content-between">
+            <h3 class="entreprise">Radio Lomé</h3>
+            <span class="lieu">Lomé, TOGO</span>
+          </div>
+
+          <div
+            class="card-body d-flex flex-column flex-md-row align-items-start"
+          >
+            <img
+              src="logo-entreprise.jpg"
+              alt="Logo Entreprise"
+              class="logo-entreprise me-md-3 mb-3 mb-md-0"
+            />
+
+            <div class="infos-poste">
+              <h4 class="poste">Stagiaire IT</h4>
+              <p class="mission">
+                Au début de l’année 2019, j’ai effectué un stage en informatique
+                à Radio Lomé. Mes missions consistaient à assurer la maintenance
+                du réseau et du parc informatique, à assister techniquement les
+                équipes rédactionnelles et à éditer du contenu pour la Web
+                Radio. J’ai également participé à la rédaction d’articles à
+                partir de reportages réalisés en collaboration avec les équipes
+                audiovisuelles, tout en produisant des rapports techniques
+                quotidiens pour la direction.
+              </p>
+
+              <!-- Image complémentaire du poste (optionnel) -->
+              <img
+                src="projet-web.jpg"
+                alt="Projet réalisé"
+                class="img-experience mt-2"
+              />
+            </div>
+          </div>
+
+          <div class="reference mt-3">
+            <p><strong>Chef SATTY</strong></p>
+            <p><strong>Téléphone :</strong> +228 91 17 74 96</p>
+          </div>
+        </div>
+
+        <!-- Zone mémoire (pour stage uniquement) -->
+        <div class="memoire mt-3">
+          <a
+            href="memoire-stage.pdf"
+            target="_blank"
+            class="btn btn-outline-primary"
+            >Lire mon mémoire de stage</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- Formation -->
+    <section id="formation" class="cv-section section-formation">
+      <div class="container">
+        <h2>Formation</h2>
+
+        <!-- Formation à Défitech -->
+        <div class="formation-cards">
+          <div
+            class="formation-card"
+            onclick="this.classList.toggle('flipped')"
+          >
+            <div class="formation-inner">
+              <div class="formation-front">
+                <img
+                  src="img/defittech.jpg"
+                  alt="Défitech"
+                  class="formation-bg"
+                />
+                <div class="formation-text">
+                  <h3>Licence en Administration des Réseaux</h3>
+                  <p>Option : Réseaux d'entreprise</p>
+                  <span>2017 - 2020</span>
+                </div>
+              </div>
+              <div class="formation-back">
+                <p>
+                  Ce diplôme m’a permis d’acquérir une expertise approfondie
+                  dans la gestion et la sécurisation des réseaux d’entreprise.
+                  J’ai étudié en détail les infrastructures réseau (LAN, WAN),
+                  la configuration de routeurs et commutateurs, la
+                  virtualisation, ainsi que la mise en place de services réseau
+                  (DNS, DHCP, VPN). La formation m’a également initié aux
+                  systèmes Linux et Windows Server, au diagnostic de pannes
+                  réseau, et à la supervision des infrastructures via des outils
+                  comme Wireshark et Nagios. Cette formation m’a donné une
+                  vision globale et pratique des enjeux liés à l’administration
+                  des systèmes d’information en entreprise.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Formation à DéfiTech -->
+        <div class="formation-cards">
+          <div
+            class="formation-card"
+            onclick="this.classList.toggle('flipped')"
+          >
+            <div class="formation-inner">
+              <div class="formation-front">
+                <img
+                  src="img/defittech.jpg"
+                  alt="Défitech"
+                  class="formation-bg"
+                />
+                <div class="formation-text">
+                  <h3>Brevet de Technicien Supérieur (BTS)</h3>
+                  <p>Option : Télécommunication</p>
+                  <span>2016 - 2018</span>
+                </div>
+              </div>
+              <div class="formation-back">
+                <p>
+                  Cette formation m’a donné une solide base technique dans le
+                  domaine des télécommunications, des transmissions numériques
+                  et analogiques, ainsi que des réseaux téléphoniques et
+                  informatiques. J’y ai appris à manipuler des équipements de
+                  téléphonie, à comprendre le fonctionnement des systèmes de
+                  commutation et à concevoir des architectures de communication
+                  fiables. Le programme incluait également l’étude des normes de
+                  transmission, des protocoles de communication et des principes
+                  fondamentaux de l’électronique appliquée aux télécoms. Ces
+                  compétences techniques m’ont permis de mieux comprendre
+                  l’architecture des réseaux actuels et leurs évolutions.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Formation au Collège Saint Joseph -->
+        <div class="formation-cards">
+          <div
+            class="formation-card"
+            onclick="this.classList.toggle('flipped')"
+          >
+            <div class="formation-inner">
+              <div class="formation-front">
+                <img
+                  src="img/collegestjo.jpg"
+                  alt="Collège Saint Joseph"
+                  class="formation-bg"
+                />
+                <div class="formation-text">
+                  <h3>Baccalauréat</h3>
+                  <p>
+                    Option : Mathématiques et Science de la vie et de la terre
+                  </p>
+                  <span>2015 - 2016</span>
+                </div>
+              </div>
+              <div class="formation-back">
+                <p>
+                  Cette formation secondaire m’a permis de développer un esprit
+                  d’analyse scientifique rigoureux, une méthodologie de travail
+                  structurée, et une curiosité intellectuelle orientée vers la
+                  compréhension des systèmes vivants et de leur interaction avec
+                  l’environnement. Elle m’a aussi donné de solides bases en
+                  biologie, géologie et chimie, ainsi qu’en mathématiques et
+                  physique, qui ont renforcé mes capacités logiques et ma
+                  rigueur dans les disciplines scientifiques. Cette orientation
+                  a posé les fondations de ma capacité à apprendre de nouveaux
+                  concepts techniques avec méthode.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Compétences -->
+    <section id="competences" class="cv-section section-competences">
+      <div class="container">
+        <h2>Compétences</h2>
+
+        <div class="competence-category">
+          <h3 class="competence-category-title">Développement</h3>
+          <ul class="competence-list">
+            <li>HTML / CSS / Bootstrap</li>
+            <li>Python (niveau intermédiaire)</li>
+          </ul>
+        </div>
+
+        <div class="competence-category">
+          <h3 class="competence-category-title">Compétences transversales</h3>
+          <div class="competence-block">
+            <h4>Leadership</h4>
+            <p>
+              Capacité à motiver et guider une équipe vers des objectifs clairs.
+            </p>
+          </div>
+          <div class="competence-block">
+            <h4>Communication technique</h4>
+            <p>
+              Capable de vulgariser des concepts complexes pour des publics non
+              techniques.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Langues -->
+    <section id="langues" class="cv-section">
+      <div class="container">
+        <h2>Langues</h2>
+        <ul>
+          <li>Français : langue maternelle</li>
+          <li>Anglais : bon niveau (B2)</li>
+          <li>Allemand : intermédiaire (B1)</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Section Téléchargement du CV -->
+    <section id="telechargement" class="cv-section section-telechargement">
+      <div class="container text-center">
+        <h2>Télécharger mon CV en PDF</h2>
+        <p>Retrouvez mon CV au format PDF en un clic :</p>
+        <a
+          href="documents/CV_ADJOME_Magnim_Serge.pdf"
+          class="btn btn-primary"
+          download
+        >
+          <i class="bi bi-download"></i> Télécharger le CV
+        </a>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+      <div class="container">
+        <p class="mb-0">&copy; 2025 Mon Nom. Tous droits réservés.</p>
+      </div>
+    </footer>
+
+    <script src="bootstrap.bundle.min.js"></script>
+  </body>
+</html>

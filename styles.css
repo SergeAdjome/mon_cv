@@ -1,0 +1,110 @@
+/* === Général === */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #ffffff;
+  color: #2c3e50;
+  line-height: 1.6;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* === Titres === */
+h1, h2, h3, h4 {
+  color: #2c3e50;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+  color: #34495e;
+}
+
+h4 {
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+  color: #5d6d7e;
+}
+
+/* === Sections générales === */
+section {
+  padding: 2rem 1rem;
+  margin-bottom: 2rem;
+  border-radius: 10px;
+  background-color: #f8f9fa;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+/* === Cartes === */
+.card {
+  border: none;
+  border-radius: 12px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background-color: #ffffff;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+}
+
+.card:hover {
+  transform: scale(1.02);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+.card-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+/* === Images === */
+.card img,
+img.img-thumbnail,
+img.logo {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* === Listes de compétences/langues === */
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+ul li::before {
+  content: '✔ ';
+  color: #007bff;
+  font-weight: bold;
+}
+
+/* === Badges ou catégories === */
+.badge {
+  font-size: 0.9rem;
+  padding: 0.5em 0.75em;
+  border-radius: 50px;
+  background-color: #dee2e6;
+  color: #2c3e50;
+}
+
+/* === Pied de page === */
+footer {
+  text-align: center;
+  padding: 1.5rem;
+  background-color: #f1f1f1;
+  color: #6c757d;
+  font-size: 0.9rem;
+}
